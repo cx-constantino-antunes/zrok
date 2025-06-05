@@ -5,10 +5,10 @@ on:
     tags:
       - 'v*.*.*'
 
-env:
-  ZITI_DEB_TEST_REPO: ${{ vars.ZITI_DEB_TEST_REPO || 'zitipax-openziti-deb-test' }}
-  ZITI_RPM_TEST_REPO: ${{ vars.ZITI_RPM_TEST_REPO || 'zitipax-openziti-rpm-test' }}
-  JFROG_CLI_VERSION: ${{ vars.JFROG_CLI_VERSION || '2.50.4' }}
+#env:
+#  ZITI_DEB_TEST_REPO: ${{ vars.ZITI_DEB_TEST_REPO || 'zitipax-openziti-deb-test' }}
+#  ZITI_RPM_TEST_REPO: ${{ vars.ZITI_RPM_TEST_REPO || 'zitipax-openziti-rpm-test' }}
+#  JFROG_CLI_VERSION: ${{ vars.JFROG_CLI_VERSION || '2.50.4' }}
 
 jobs:
   build-linux:
