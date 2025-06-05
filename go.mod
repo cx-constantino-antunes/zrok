@@ -4,6 +4,8 @@ go 1.23
 
 toolchain go1.23.2
 
+replace github.com/openziti/sdk-golang => github.com/cx-constantino-antunes/sdk-golang v0.23.46
+
 require (
 	github.com/TwiN/go-away v1.6.12
 	github.com/caddyserver/caddy/v2 v2.8.4
