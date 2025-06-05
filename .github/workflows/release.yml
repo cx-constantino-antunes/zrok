@@ -13,9 +13,9 @@ on:
 jobs:
   build-linux:
     name: build-linux-${{ matrix.arch.goreleaser }}
-#    needs:
+    needs:
 #      - build-darwin
-#      - build-windows
+      - build-windows
     runs-on: ubuntu-22.04  # oldest Docker host runner for broadest kernel, syscall, ABI support
     container: openziti/ziti-builder:v2  # v2 is based on ubuntu focal 20.04 for broadest glibc support
     strategy:
