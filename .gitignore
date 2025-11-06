@@ -12,7 +12,7 @@ node_modules/
 
 # Artifacts
 /dist/
-
+ui/build/
 # Generated files
 .docusaurus
 .cache-loader
